@@ -1,0 +1,4 @@
+(version 1)
+(rule "Minimum connection width 1"
+	(constraint connection_width (min 1mm))
+)

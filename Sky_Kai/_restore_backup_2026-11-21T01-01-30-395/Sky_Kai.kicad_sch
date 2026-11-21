@@ -1,0 +1,3932 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55")
+	(paper "A4")
+	(title_block
+		(date "sam. 04 avril 2015")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Connector_Generic:Conn_01x12"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x12"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x12_1_1"
+				(rectangle
+					(start -1.27 13.97)
+					(end 1.27 -16.51)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 12.827)
+					(end 0 12.573)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 10.287)
+					(end 0 10.033)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -12.573)
+					(end 0 -12.827)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -15.113)
+					(end 0 -15.367)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 12.7 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -15.24 0)
+					(length 3.81)
+					(name "Pin_12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:LD271"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0.508 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LD271"
+				(at -1.016 -2.794 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+				(at 0 4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
+				(at -1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "940nm IR-LED, 5mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "IR LED"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED*5.0mm*IRGrey*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "LD271_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy -2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.413 1.651) (xy -0.889 3.175) (xy -0.889 2.667) (xy -0.889 3.175) (xy -1.397 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.143 1.651) (xy 0.381 3.175) (xy 0.381 2.667)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy -2.54 0) (xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.381 3.175) (xy -0.127 3.175)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LD271_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VCC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VCC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VCC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VCC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VCC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:VDC"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "VDC"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VDC\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "VDC_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VDC_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 129.54 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "11538448-4d91-43ca-982b-5a1110803113")
+	)
+	(junction
+		(at 129.54 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "479f23c1-8c96-49a0-a5b8-6248423cf3be")
+	)
+	(junction
+		(at 62.23 25.4)
+		(diameter 1.016)
+		(color 0 0 0 0)
+		(uuid "48f827a8-6e22-4a2e-abdc-c2a03098d883")
+	)
+	(junction
+		(at 129.54 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7b4789d2-570e-46fc-ae45-48a5bddb74cc")
+	)
+	(junction
+		(at 129.54 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f0ec65c-0c6a-439a-a87d-5994a5a00f04")
+	)
+	(junction
+		(at 129.54 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7a18719-13a4-4ff2-8abb-1d6632570ebe")
+	)
+	(junction
+		(at 129.54 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7d0bff5-895b-4b9f-9efa-c70760a5b3a8")
+	)
+	(junction
+		(at 129.54 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd703279-e07c-48c8-bbe2-b9eff5d1f5ac")
+	)
+	(junction
+		(at 67.31 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "daf2837c-293c-498c-b848-e278290179d1")
+	)
+	(junction
+		(at 129.54 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2a918e9-4e44-407d-b19a-3562e07bb068")
+	)
+	(wire
+		(pts
+			(xy 72.39 22.86) (xy 72.39 27.94)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "0425ada3-10f1-41d1-8da7-e2461ffb393f")
+	)
+	(wire
+		(pts
+			(xy 80.01 43.18) (xy 82.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "096389e9-2953-4ccb-bfef-52f381e75e7f")
+	)
+	(wire
+		(pts
+			(xy 82.55 40.64) (xy 82.55 43.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "096389e9-2953-4ccb-bfef-52f381e75e80")
+	)
+	(wire
+		(pts
+			(xy 67.31 19.05) (xy 67.31 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c991b77-b971-4934-904a-3b0e79175a75")
+	)
+	(wire
+		(pts
+			(xy 54.61 50.8) (xy 54.61 73.66)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "1042fe0f-1d37-4249-9c4b-1842e286b497")
+	)
+	(wire
+		(pts
+			(xy 104.14 91.44) (xy 104.14 44.45)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "104a831d-ed12-465a-b501-e8e64c33923a")
+	)
+	(wire
+		(pts
+			(xy 80.01 58.42) (xy 95.25 58.42)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "17f39549-a17f-4842-af55-4fe2dbb0c1d1")
+	)
+	(wire
+		(pts
+			(xy 38.1 63.5) (xy 57.15 63.5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "1f754284-fd8b-4666-9fea-6552de75ffda")
+	)
+	(wire
+		(pts
+			(xy 30.48 55.88) (xy 57.15 55.88)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "206caed4-fa5f-43fd-a4e4-34edd34aa718")
+	)
+	(wire
+		(pts
+			(xy 129.54 52.07) (xy 129.54 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20baf808-c024-4ec3-97f9-3758760fd2a2")
+	)
+	(wire
+		(pts
+			(xy 45.72 91.44) (xy 104.14 91.44)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2554b3f4-7c04-4264-8a3e-867c9bca22c2")
+	)
+	(wire
+		(pts
+			(xy 43.18 68.58) (xy 43.18 93.98)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "26350e7c-4b28-4c72-ae5f-329365c2cb86")
+	)
+	(wire
+		(pts
+			(xy 80.01 71.12) (xy 101.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "2869ad0e-b676-4419-b999-62323b83fc8a")
+	)
+	(wire
+		(pts
+			(xy 33.02 104.14) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "28b3feab-bf21-46ec-9396-55c745986a02")
+	)
+	(wire
+		(pts
+			(xy 111.76 67.31) (xy 121.92 67.31)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "33973e33-9238-44d0-a94b-3878d5738b0d")
+	)
+	(wire
+		(pts
+			(xy 80.01 68.58) (xy 95.25 68.58)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "34a29515-a83d-4e4f-96aa-4e8fde0f0b75")
+	)
+	(wire
+		(pts
+			(xy 35.56 101.6) (xy 114.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "34eb1bf9-491b-4bc0-aa85-b53bb8e0a3d5")
+	)
+	(wire
+		(pts
+			(xy 82.55 45.72) (xy 82.55 73.66)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3563906f-aa20-4b26-9a40-0ad0aafc531a")
+	)
+	(wire
+		(pts
+			(xy 40.64 66.04) (xy 40.64 96.52)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "384ff6ea-d449-4ec8-9fbf-cabb623e6f6c")
+	)
+	(wire
+		(pts
+			(xy 106.68 93.98) (xy 106.68 52.07)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "38dd3653-d994-4fcc-8661-59cb2bdd32ad")
+	)
+	(wire
+		(pts
+			(xy 62.23 25.4) (xy 62.23 27.94)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "3aa61764-52dc-46b7-97ca-4a621d9d9173")
+	)
+	(wire
+		(pts
+			(xy 129.54 90.17) (xy 129.54 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40620ea7-a7d0-4ae9-8d82-03de7263431a")
+	)
+	(wire
+		(pts
+			(xy 80.01 53.34) (xy 95.25 53.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "43885a5c-06d6-4d66-b185-29affd7ef90b")
+	)
+	(wire
+		(pts
+			(xy 80.01 55.88) (xy 95.25 55.88)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "448d1195-c4c2-42c8-84e1-78451b54a801")
+	)
+	(wire
+		(pts
+			(xy 85.09 40.64) (xy 85.09 50.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4778ed56-e538-4dbd-80e9-be8812323e7a")
+	)
+	(wire
+		(pts
+			(xy 40.64 96.52) (xy 109.22 96.52)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "49945445-6434-48a8-84c6-90862267fe4c")
+	)
+	(wire
+		(pts
+			(xy 43.18 93.98) (xy 106.68 93.98)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4f7dd77f-d3bf-406d-a9c6-c3c827628226")
+	)
+	(wire
+		(pts
+			(xy 40.64 66.04) (xy 57.15 66.04)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "4f8410e9-3259-4c96-83db-d2bd2b41d26a")
+	)
+	(wire
+		(pts
+			(xy 38.1 63.5) (xy 38.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5143e8ea-3116-4eae-ac62-e529e38ef1ec")
+	)
+	(wire
+		(pts
+			(xy 54.61 25.4) (xy 54.61 27.94)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "51d282e8-dc3a-4f50-a2aa-7171c16244af")
+	)
+	(wire
+		(pts
+			(xy 46.99 45.72) (xy 57.15 45.72)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "524420b7-8d48-47dd-813d-3b53af66e745")
+	)
+	(wire
+		(pts
+			(xy 43.18 68.58) (xy 57.15 68.58)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "538d2cea-ebdc-41df-8192-552137ccb729")
+	)
+	(wire
+		(pts
+			(xy 80.01 50.8) (xy 85.09 50.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "5dfcafeb-4394-4554-91d3-c1369b65bb05")
+	)
+	(wire
+		(pts
+			(xy 46.99 43.18) (xy 57.15 43.18)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "64071631-2728-473d-80d7-1a90cfab9d15")
+	)
+	(wire
+		(pts
+			(xy 54.61 50.8) (xy 57.15 50.8)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "64afaf35-ef70-46f5-b116-8945fda9325a")
+	)
+	(wire
+		(pts
+			(xy 38.1 99.06) (xy 111.76 99.06)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "655241ec-9e15-4033-a4f2-d0500b6d6372")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 111.76 67.31)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6735f430-bf16-48ac-bc3b-5305faa1b97b")
+	)
+	(wire
+		(pts
+			(xy 80.01 60.96) (xy 95.25 60.96)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "69c1341f-08d1-4787-b595-15932a40adf7")
+	)
+	(wire
+		(pts
+			(xy 27.94 53.34) (xy 57.15 53.34)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "6f9927de-8dc4-4822-9e1c-f16a1c772a06")
+	)
+	(wire
+		(pts
+			(xy 129.54 74.93) (xy 129.54 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72fb27ed-9fdd-40a2-91ab-6a765ab44143")
+	)
+	(wire
+		(pts
+			(xy 45.72 71.12) (xy 57.15 71.12)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "730072e4-da86-488c-bf12-792b2735b2b5")
+	)
+	(wire
+		(pts
+			(xy 80.01 66.04) (xy 95.25 66.04)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "756c50e1-95e2-431d-a399-fe2f0cd4d3bd")
+	)
+	(wire
+		(pts
+			(xy 67.31 22.86) (xy 67.31 27.94)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "75c076a3-1a88-4628-9088-b765800dc04a")
+	)
+	(wire
+		(pts
+			(xy 119.38 90.17) (xy 121.92 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "79c30025-f847-4f10-bd64-3a8409a60870")
+	)
+	(wire
+		(pts
+			(xy 116.84 104.14) (xy 116.84 82.55)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "7a76ee00-1b85-4b8d-b5e9-c67a90989be0")
+	)
+	(wire
+		(pts
+			(xy 54.61 25.4) (xy 62.23 25.4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8c79f40d-8b8a-4e08-b843-9304189b6769")
+	)
+	(wire
+		(pts
+			(xy 64.77 25.4) (xy 62.23 25.4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8c79f40d-8b8a-4e08-b843-9304189b676a")
+	)
+	(wire
+		(pts
+			(xy 64.77 27.94) (xy 64.77 25.4)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8c79f40d-8b8a-4e08-b843-9304189b676b")
+	)
+	(wire
+		(pts
+			(xy 129.54 17.78) (xy 129.54 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cb8cf3a-6bd1-46b0-a46a-cd40d1bce2ae")
+	)
+	(wire
+		(pts
+			(xy 109.22 96.52) (xy 109.22 59.69)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "8fc6a1df-3814-4250-9425-bb9ba6ded1a5")
+	)
+	(wire
+		(pts
+			(xy 101.6 71.12) (xy 101.6 36.83)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "934865e5-961a-45ce-a425-d5c9b6ef92a9")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9d235042-01eb-4486-a21c-dc1e225503e9")
+	)
+	(wire
+		(pts
+			(xy 30.48 55.88) (xy 30.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9d23da06-b9aa-43e1-947f-448822ae5dc4")
+	)
+	(wire
+		(pts
+			(xy 27.94 109.22) (xy 121.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "9e99441e-42e4-4061-bae0-d6722c671c1b")
+	)
+	(wire
+		(pts
+			(xy 80.01 48.26) (xy 95.25 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a84cfed0-7505-487b-873a-cef2ebbf547d")
+	)
+	(wire
+		(pts
+			(xy 30.48 106.68) (xy 119.38 106.68)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a9759c87-641b-425f-b16b-4c292335bdff")
+	)
+	(wire
+		(pts
+			(xy 114.3 74.93) (xy 121.92 74.93)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "a9aa8343-a1a8-4725-b4b0-77618b5ae58c")
+	)
+	(wire
+		(pts
+			(xy 35.56 60.96) (xy 35.56 101.6)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "ac9d1fb0-1da5-446b-b075-2fa6c5d11158")
+	)
+	(wire
+		(pts
+			(xy 129.54 44.45) (xy 129.54 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae419342-4ff9-4fb2-b742-d054d5c3eac8")
+	)
+	(wire
+		(pts
+			(xy 104.14 44.45) (xy 121.92 44.45)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "aedd6517-2260-4f39-8eee-93c8c417a753")
+	)
+	(wire
+		(pts
+			(xy 119.38 106.68) (xy 119.38 90.17)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b02bb0a1-5f1f-4bb4-8a21-9132627d32b8")
+	)
+	(wire
+		(pts
+			(xy 106.68 52.07) (xy 121.92 52.07)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "b7a93f5e-118c-416b-a436-aea9e8529a04")
+	)
+	(wire
+		(pts
+			(xy 129.54 59.69) (xy 129.54 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb185476-b8c1-4a04-ae69-67e428be4c0c")
+	)
+	(wire
+		(pts
+			(xy 116.84 82.55) (xy 121.92 82.55)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "cb6c7e8b-cc1c-4c5c-b135-f1df4fdbc56d")
+	)
+	(wire
+		(pts
+			(xy 101.6 36.83) (xy 121.92 36.83)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "ce3aae05-d6b4-4573-ab3e-9fa6f81c1dfe")
+	)
+	(wire
+		(pts
+			(xy 35.56 60.96) (xy 57.15 60.96)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "ce4deedf-4697-4e84-9518-f94066b9b2b0")
+	)
+	(wire
+		(pts
+			(xy 27.94 53.34) (xy 27.94 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d2329f80-5137-4328-95ac-e8d37cce4f5d")
+	)
+	(wire
+		(pts
+			(xy 129.54 36.83) (xy 129.54 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3e25ae1-0e93-4c0e-903a-c20cb2948c5c")
+	)
+	(wire
+		(pts
+			(xy 33.02 58.42) (xy 33.02 104.14)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "d99dfe2b-1009-4d3c-9ed1-444aef301edb")
+	)
+	(wire
+		(pts
+			(xy 80.01 63.5) (xy 95.25 63.5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "dd251db1-e902-4e78-8700-9220e9724aca")
+	)
+	(wire
+		(pts
+			(xy 129.54 67.31) (xy 129.54 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3d66f21-ae2f-4845-83ab-bc1dba9c1c60")
+	)
+	(wire
+		(pts
+			(xy 45.72 71.12) (xy 45.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e5ed7d1a-2f96-4557-a4de-eee4ea9daf18")
+	)
+	(wire
+		(pts
+			(xy 69.85 22.86) (xy 69.85 27.94)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e5f2dce9-7122-4a18-8273-048890862b63")
+	)
+	(wire
+		(pts
+			(xy 80.01 45.72) (xy 82.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e8434b62-f86f-427c-95c0-0432f5ab1eba")
+	)
+	(wire
+		(pts
+			(xy 74.93 22.86) (xy 74.93 27.94)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e9790ffd-8c01-4d92-8f36-32458fc02f86")
+	)
+	(wire
+		(pts
+			(xy 121.92 97.79) (xy 121.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "e9b222cc-ef41-4ddf-8af1-e562288b02c7")
+	)
+	(wire
+		(pts
+			(xy 129.54 82.55) (xy 129.54 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f13cd64f-2a23-4b1e-9c7c-ce2f3791decf")
+	)
+	(wire
+		(pts
+			(xy 33.02 58.42) (xy 57.15 58.42)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f263393c-1ec1-4a11-9438-13420d80fcb6")
+	)
+	(wire
+		(pts
+			(xy 46.99 48.26) (xy 57.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f27576dd-c841-4318-8ad1-951772420146")
+	)
+	(wire
+		(pts
+			(xy 109.22 59.69) (xy 121.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f3855aa2-156b-496b-9ed5-aed1dd25d241")
+	)
+	(wire
+		(pts
+			(xy 62.23 25.4) (xy 62.23 22.86)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(uuid "f87042b4-400d-4921-972d-98dd5381bd5a")
+	)
+	(label "D4"
+		(at 46.99 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0de5cd6e-18cc-4586-a428-ffa262c72cd0")
+	)
+	(label "MISO{slash}D12"
+		(at 95.25 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "11b9b690-93f8-4dfa-bd04-a9bd3d15fff8")
+	)
+	(label "TX"
+		(at 46.99 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27a716dc-bb22-42d8-82b4-b628c238f716")
+	)
+	(label "A2"
+		(at 95.25 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f306873-cb90-4a00-a400-c827b6c28c28")
+	)
+	(label "A0"
+		(at 95.25 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5177ab7d-d153-4bff-a36d-1800a8dd2232")
+	)
+	(label "MOSI{slash}*D11"
+		(at 95.25 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5618010b-8397-4497-9bc6-7d69b6fdc189")
+	)
+	(label "*D3"
+		(at 46.99 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69302b48-bec5-4e71-8790-c50348f83874")
+	)
+	(label "D2"
+		(at 46.99 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6eec68f0-c79b-4384-b56c-dc7c8d4344a2")
+	)
+	(label "*D5"
+		(at 46.99 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fbaceeb-0860-4496-a0ec-d5853f05608c")
+	)
+	(label "*D6"
+		(at 46.99 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "88c671e2-59c6-4f6b-82a2-e09db5d8c705")
+	)
+	(label "D8"
+		(at 46.99 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96f0012b-a7fc-4ba2-b96b-b66a49c4b6ed")
+	)
+	(label "*D9"
+		(at 46.99 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9888c18b-0788-44db-a934-174226996cae")
+	)
+	(label "~{RESET}"
+		(at 95.25 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9955bb9b-18bf-4bfe-bb61-b8b389586061")
+	)
+	(label "A1"
+		(at 95.25 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d204b24-ab83-4321-8f77-3a6cce31bd3e")
+	)
+	(label "RX"
+		(at 46.99 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a1adf0b9-fcd0-4cfd-9587-3776282d29fa")
+	)
+	(label "RX"
+		(at 69.85 22.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc54ee0c-2fb6-456e-b6b8-4fd869b45072")
+	)
+	(label "TX"
+		(at 72.39 22.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9984e87-f417-4b12-b4a2-a93e41e789d2")
+	)
+	(label "DTR"
+		(at 74.93 22.86 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d848e6ff-b146-4dac-af94-dcbee251b426")
+	)
+	(label "D7"
+		(at 46.99 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc12f935-8884-4d5c-bccf-f01546073a2a")
+	)
+	(label "A3"
+		(at 95.25 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df0cfaa3-d324-4078-9192-e74720e489d8")
+	)
+	(label "~{RESET}"
+		(at 46.99 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e51af763-23c5-43d5-9125-b0da810d5f54")
+	)
+	(label "SS{slash}*D10"
+		(at 95.25 71.12 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec23330a-5432-4301-bb5d-095164c79055")
+	)
+	(label "SCK{slash}D13"
+		(at 95.25 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f43402c3-307f-4693-8508-b7289ef614a6")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x12")
+		(at 62.23 58.42 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056d719df")
+		(property "Reference" "J7"
+			(at 62.23 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Digital"
+			(at 64.77 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
+			(at 62.23 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 62.23 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "756e3adb-8e69-443b-a62a-32ab5863ff36")
+		)
+		(pin "10"
+			(uuid "728856c8-c8ad-4d51-a6d7-77f17a9da41a")
+		)
+		(pin "11"
+			(uuid "7e1c8ea5-2278-49ee-8bbd-25d8e6e74d42")
+		)
+		(pin "12"
+			(uuid "1f9c6584-8235-48a6-b5a6-fff2d9b27635")
+		)
+		(pin "2"
+			(uuid "b1e20a9c-cf3d-44f3-9534-345a95b4eb58")
+		)
+		(pin "3"
+			(uuid "375121e4-9809-4fe2-8c8a-ababeb77fa5a")
+		)
+		(pin "4"
+			(uuid "d98ce55b-385c-4930-972d-f20d141ad63d")
+		)
+		(pin "5"
+			(uuid "fbf62a93-0ec4-47c4-9af6-25ea6473a1da")
+		)
+		(pin "6"
+			(uuid "e3c3dbfc-c56e-44d3-a600-0bc0c1ccf692")
+		)
+		(pin "7"
+			(uuid "0f5db624-2771-4c60-b241-1014ae927bda")
+		)
+		(pin "8"
+			(uuid "9470ab1c-c30b-4abc-aa67-390ddc1ed18b")
+		)
+		(pin "9"
+			(uuid "a18e2de3-488e-459d-b641-19b4c32465cb")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x12")
+		(at 74.93 55.88 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056d71a21")
+		(property "Reference" "J6"
+			(at 74.93 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Analog"
+			(at 72.39 57.15 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical"
+			(at 74.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x12, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 74.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7ae96558-a39b-4e99-b8bd-5476d49877b2")
+		)
+		(pin "10"
+			(uuid "78a2ae77-e867-40e6-97ea-db40bb237c7b")
+		)
+		(pin "11"
+			(uuid "5466551f-eab5-4634-9e94-a5fe8846e46c")
+		)
+		(pin "12"
+			(uuid "0c61a52d-4af4-4e67-b476-a6cbe7de67ed")
+		)
+		(pin "2"
+			(uuid "e390c661-a869-4586-bda2-08fc17897730")
+		)
+		(pin "3"
+			(uuid "ed3fc17a-c008-4876-b40d-6b5f01a303c5")
+		)
+		(pin "4"
+			(uuid "dfe4466b-3eac-480e-bc17-f6945aabecc1")
+		)
+		(pin "5"
+			(uuid "153b8fc6-65ff-4485-9324-8310c2abeeec")
+		)
+		(pin "6"
+			(uuid "9f1384f8-13b9-4db4-a1ea-255aeaa90284")
+		)
+		(pin "7"
+			(uuid "1d3574be-3e2e-40ba-95d1-930b2a8ef845")
+		)
+		(pin "8"
+			(uuid "6fd428aa-b89f-48c4-970e-416143a5e589")
+		)
+		(pin "9"
+			(uuid "8ae84978-be40-4179-aba8-5c21c62e26bd")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 67.31 22.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0e5b314f-db9b-4b49-bd08-8836201d3d1c")
+		(property "Reference" "#PWR0101"
+			(at 67.31 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 67.31 19.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 67.31 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99912084-5d26-4a10-9d74-0d4945b942e7")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:LD271")
+		(at 127 97.79 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "150b513f-a38a-4ae2-955e-40bfe7ef7ecf")
+		(property "Reference" "D7"
+			(at 125.73 92.964 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD271"
+			(at 125.857 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+			(at 127 93.345 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
+			(at 125.73 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "940nm IR-LED, 5mm"
+			(at 127 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a14bc692-1168-4bfb-86f6-c4fb936ac627")
+		)
+		(pin "2"
+			(uuid "9193a637-8571-417d-8c1e-3f3c8d8410c3")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3205686c-9505-4fba-bcb1-d0e650fdf9f3")
+		(property "Reference" "#PWR0106"
+			(at 82.55 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "234e7569-92ac-41d4-84c4-89a3ef5503ce")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:LD271")
+		(at 127 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "403a2ecb-7bec-46e0-afd7-8cddc6ef89ae")
+		(property "Reference" "D2"
+			(at 125.73 55.118 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD271"
+			(at 125.857 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+			(at 127 55.245 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
+			(at 125.73 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "940nm IR-LED, 5mm"
+			(at 127 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3453e2ca-b050-423b-96a5-3fe031f51f98")
+		)
+		(pin "2"
+			(uuid "3e8521dd-b210-425c-bf84-5612868bfa79")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "41a55654-2f9e-4881-bbbc-d8950fd85d36")
+		(property "Reference" "#PWR0105"
+			(at 54.61 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3ad7d842-cb70-430b-9694-4aee11aac859")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:LD271")
+		(at 127 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6c18712d-3a81-4ab4-bd4c-8ead72f8dc6c")
+		(property "Reference" "D1"
+			(at 125.984 61.976 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD271"
+			(at 125.857 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+			(at 127 62.865 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
+			(at 125.73 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "940nm IR-LED, 5mm"
+			(at 127 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e54332b-4a50-405c-a09d-7690c77456c5")
+		)
+		(pin "2"
+			(uuid "d6f14b37-84e2-47f8-bde1-f47253cc2fb9")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDC")
+		(at 82.55 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f2d8e34-e897-494b-a08d-24f6b8c76af2")
+		(property "Reference" "#PWR0103"
+			(at 82.55 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VDC"
+			(at 82.55 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDC\""
+			(at 82.55 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe36c06c-6f42-450d-a607-3b6a022d5c2f")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:LD271")
+		(at 127 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a89db40c-0f70-4b57-9215-6c05195fa450")
+		(property "Reference" "D8"
+			(at 125.984 85.598 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD271"
+			(at 125.857 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+			(at 127 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
+			(at 125.73 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "940nm IR-LED, 5mm"
+			(at 127 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc4da3cb-e39e-4ddb-81d5-980cfb851c34")
+		)
+		(pin "2"
+			(uuid "0ef4848d-9474-4de1-b1f8-727e3974ceab")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:LD271")
+		(at 127 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a8e8277e-92ee-42e0-884c-c678a55c7a21")
+		(property "Reference" "D6"
+			(at 125.73 47.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD271"
+			(at 125.857 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+			(at 127 47.625 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
+			(at 125.73 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "940nm IR-LED, 5mm"
+			(at 127 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70c52109-f3d3-4828-bbc7-55526a28085f")
+		)
+		(pin "2"
+			(uuid "c6291f73-cb26-4b72-b10e-7479f3a47bdc")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:LD271")
+		(at 127 36.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aa43807f-08ce-443c-be63-5e377e781c6a")
+		(property "Reference" "D9"
+			(at 126.238 32.004 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD271"
+			(at 125.857 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+			(at 127 32.385 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
+			(at 125.73 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "940nm IR-LED, 5mm"
+			(at 127 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1f57f3d2-cf74-476d-bbc7-da7504dfdcf0")
+		)
+		(pin "2"
+			(uuid "0dbb2916-eef7-4feb-b04c-c5df7640e0c3")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 67.31 33.02 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aac7d02e-9ce8-45f5-9fb9-4d6390366592")
+		(property "Reference" "J1"
+			(at 60.96 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "FTDI"
+			(at 72.39 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
+			(at 67.31 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 67.31 33.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c13c1093-4018-40e6-8ca3-a2ea14bede2d")
+		)
+		(pin "2"
+			(uuid "be1a2273-fdc8-4286-a3a4-dfbca2145e7f")
+		)
+		(pin "3"
+			(uuid "8cacbc4a-f622-4f5e-a395-67d8fed519d9")
+		)
+		(pin "4"
+			(uuid "a8c91da5-190e-4b47-b738-249a80a6f0b6")
+		)
+		(pin "5"
+			(uuid "b02ac576-84f8-4da8-a76b-e328b130adfe")
+		)
+		(pin "6"
+			(uuid "c854747a-b564-40fe-bd6f-adce7f85ba3f")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:LD271")
+		(at 127 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c469efa6-699d-4ac7-ab3b-586f3a2b3562")
+		(property "Reference" "D5"
+			(at 125.73 77.724 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD271"
+			(at 125.857 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+			(at 127 78.105 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
+			(at 125.73 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "940nm IR-LED, 5mm"
+			(at 127 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "89c2049d-3167-4202-b04f-69d6efb212a4")
+		)
+		(pin "2"
+			(uuid "21e7d9be-51d4-4265-b1e9-8fdb9ec1d8a9")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 85.09 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da4d104a-c44a-473c-9be0-1193adcb80ee")
+		(property "Reference" "#PWR0102"
+			(at 85.09 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 85.09 35.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 85.09 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17f7b709-c1ea-4fa7-9297-d8d456a92f3c")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0102")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 54.61 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "df796683-4fd7-4b5f-bf13-f2764587ca24")
+		(property "Reference" "#PWR0104"
+			(at 54.61 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 54.61 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 54.61 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "64bc7841-4cb2-4352-9f69-fe57e038e976")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:LD271")
+		(at 127 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e416fdcb-0c5f-4e6f-8760-e0306b8ee526")
+		(property "Reference" "D4"
+			(at 125.984 70.104 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD271"
+			(at 125.857 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+			(at 127 70.485 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
+			(at 125.73 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "940nm IR-LED, 5mm"
+			(at 127 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1996e4c3-3d20-41ad-8e79-94c8204095bf")
+		)
+		(pin "2"
+			(uuid "95a87be9-06c1-4605-a00e-5313f6e700e5")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:LD271")
+		(at 127 44.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fe25cf3e-5869-4784-8879-c8923ba62710")
+		(property "Reference" "D3"
+			(at 125.984 40.386 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LD271"
+			(at 125.857 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_THT:LED_D5.0mm_IRGrey"
+			(at 127 40.005 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.alliedelec.com/m/d/40788c34903a719969df15f1fbea1056.pdf"
+			(at 125.73 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "940nm IR-LED, 5mm"
+			(at 127 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d42ef4d4-9522-4a96-955c-b21387ca4942")
+		)
+		(pin "2"
+			(uuid "cd72bae7-7e9e-4116-9662-0e74f7418ab8")
+		)
+		(instances
+			(project "Sky_Kai"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
